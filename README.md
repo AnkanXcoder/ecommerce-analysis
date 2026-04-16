@@ -1,21 +1,14 @@
 # 📊 E-commerce Customer & Revenue Analysis
 
-🚀 Turning raw transaction data into meaningful business insights, revealing that 80% of revenue comes from just 20% of customers using Python and Pandas.
+🚀 Turning raw transaction data into meaningful business insights using Python and Pandas.
+
+💡 A small percentage of customers contributes a large portion of total revenue (Pareto principle).
 
 ---
 
 ## 📌 Overview
 
-This project analyzes an e-commerce dataset to understand customer behavior, revenue patterns, and business performance. The goal is to extract actionable insights from real-world transactional data.
-
----
-
-## 🎯 Objectives
-
-* Understand customer purchasing behavior
-* Identify high-value customers
-* Analyze revenue trends over time
-* Explore customer retention
+This project analyzes an e-commerce dataset to understand customer behavior, revenue trends, and business performance. The goal is to extract actionable insights from real-world data.
 
 ---
 
@@ -23,14 +16,36 @@ This project analyzes an e-commerce dataset to understand customer behavior, rev
 
 ### 🔹 Revenue Trend
 
+![Revenue](images/revenue.png)
+
+* Analyzed how revenue changes over time
+* Identified fluctuations and peak periods
+
+---
+
+### 🔹 Top Countries by Revenue
+
+![Countries](images/top_countries.png)
+
+* Compared revenue contribution across countries
+* Identified top-performing regions
+
+---
+
+### 🔹 Customer Insights
+
+* Segmented customers based on total spending
+* Identified high-value customers
+* Analyzed repeat vs new customers
+
 ---
 
 ## 🔍 Key Insights
 
-* Top ~20% of customers contribute a large portion of total revenue (Pareto principle)
-* Revenue shows fluctuations over time indicating changing demand patterns
+* Top ~20% of customers contribute a large portion of revenue
+* Revenue fluctuates over time indicating demand patterns
 * Customer behavior varies across countries
-* Repeat customers significantly impact overall revenue
+* Repeat customers significantly impact revenue
 
 ---
 
@@ -70,20 +85,4 @@ Note: The full dataset is large, so a sample dataset is included for demonstrati
 
 ---
 
-## 💡 What I Learned
-
-* Data cleaning and preprocessing
-* Feature engineering
-* GroupBy and aggregation
-* Time-series analysis
-* Business-oriented data thinking
-
----
-
-## 🔗 Project Link
-
-https://github.com/AnkanXcoder/ecommerce-analysis
-
----
-
-⭐ If you found this useful, consider giving it a star!
+⭐ If you like this project, consider giving it a star!
